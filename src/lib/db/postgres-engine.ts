@@ -50,7 +50,8 @@ async function initializePostgresEngine(): Promise<PGlite> {
     db = new PGlite();
   } else {
     try {
-      const dataDir = path.join(process.cwd(), '.data', 'footbid-pg');
+      const baseDir = process.env.VERCEL ? '/tmp' : path.join(process.cwd(), '.data');
+      const dataDir = path.join(baseDir, 'footbid-pg');
       fs.mkdirSync(path.dirname(dataDir), { recursive: true });
       db = new PGlite(dataDir);
     } catch {
