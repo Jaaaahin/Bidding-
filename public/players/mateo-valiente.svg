@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" fill="none">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="600" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#071330"/>
+      <stop offset="50%" stop-color="#0D224C"/>
+      <stop offset="100%" stop-color="#040814"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#040814" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kit1" x1="160" y1="400" x2="440" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="720" fill="url(#bg1)"/>
+  <circle cx="300" cy="260" r="280" fill="url(#glow1)"/>
+  <path d="M0 580 L600 490 L600 720 L0 720 Z" fill="#00FF87" fill-opacity="0.05"/>
+  <text x="450" y="210" font-family="sans-serif" font-weight="900" font-size="160" fill="#FFFFFF" fill-opacity="0.06" text-anchor="middle">9</text>
+  <!-- Shoulders & Kit -->
+  <path d="M110 720 C115 505 185 430 300 430 C415 430 485 505 490 720 Z" fill="url(#kit1)"/>
+  <path d="M235 432 L235 720 M365 432 L365 720" stroke="#FFFFFF" stroke-width="28" stroke-opacity="0.9"/>
+  <path d="M245 430 L300 495 L355 430" fill="none" stroke="#040814" stroke-width="14"/>
+  <!-- Neck & Head Silhouette -->
+  <rect x="268" y="365" width="64" height="80" rx="22" fill="#D99B72"/>
+  <path d="M215 245 C215 170 250 135 300 135 C350 135 385 170 385 245 C385 325 348 380 300 380 C252 380 215 325 215 245 Z" fill="#E6AC83"/>
+  <!-- Hair -->
+  <path d="M212 225 C210 155 245 120 302 120 C360 120 390 155 388 225 C372 185 345 172 300 172 C255 172 228 185 212 225 Z" fill="#111827"/>
+  <!-- Facial details -->
+  <rect x="248" y="232" width="32" height="7" rx="3.5" fill="#1F2937"/>
+  <rect x="320" y="232" width="32" height="7" rx="3.5" fill="#1F2937"/>
+  <circle cx="264" cy="252" r="7" fill="#0F172A"/>
+  <circle cx="336" cy="252" r="7" fill="#0F172A"/>
+  <path d="M276 322 Q300 338 324 322" stroke="#9A5B38" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Crest & Number -->
+  <circle cx="395" cy="545" r="22" fill="#040814" stroke="#00FF87" stroke-width="3"/>
+  <text x="395" y="552" font-family="sans-serif" font-weight="800" font-size="16" fill="#00FF87" text-anchor="middle">AR</text>
+  <rect x="36" y="36" width="108" height="38" rx="19" fill="#040814" fill-opacity="0.75" stroke="#38BDF8" stroke-width="1.5"/>
+  <text x="90" y="61" font-family="sans-serif" font-weight="700" font-size="16" fill="#F8FAFC" text-anchor="middle">ARG • #9</text>
+</svg>

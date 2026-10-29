@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" fill="none">
+  <defs>
+    <linearGradient id="bgDef" x1="0" y1="0" x2="600" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1736"/>
+      <stop offset="100%" stop-color="#040814"/>
+    </linearGradient>
+    <linearGradient id="kitDef" x1="160" y1="400" x2="440" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E316B"/>
+      <stop offset="100%" stop-color="#070E22"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="720" fill="url(#bgDef)"/>
+  <path d="M110 720 C115 505 185 430 300 430 C415 430 485 505 490 720 Z" fill="url(#kitDef)" stroke="#00FF87" stroke-width="2" stroke-opacity="0.35"/>
+  <circle cx="300" cy="255" r="88" fill="#15234E" stroke="#00FF87" stroke-width="2" stroke-opacity="0.4"/>
+  <rect x="36" y="36" width="136" height="38" rx="19" fill="#040814" fill-opacity="0.75" stroke="#00FF87" stroke-width="1.5"/>
+  <text x="104" y="61" font-family="sans-serif" font-weight="700" font-size="15" fill="#00FF87" text-anchor="middle">FOOTBID PRO</text>
+</svg>
